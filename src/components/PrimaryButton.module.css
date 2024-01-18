@@ -2,16 +2,24 @@
   margin-left: auto;
   color: white;
   font-size: 18px;
-  border: none;
+  border: solid 2px transparent;
   padding: 10px 20px;
   background-color: var(--primaryColor);
   border-radius: 10px;
+  transition: ease-in-out 0.3s;
 }
 
 .buttonContent {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.actionButton:hover {
+  border: solid 2px var(--primaryColor);
+  color: var(--primaryColor);
+  background-color: white;
+  transform: scale(1.01);
 }
 
 @media (max-width: 991px) {
