@@ -1,8 +1,13 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
-import classes from "./Homeppage.module.css";
+import classes from "./Homepage.module.css";
 import heroImg from "../images/img1.png";
 import PrimaryButton from "../components/PrimaryButton";
+import portfolio1 from "../images/portfolio1.png";
+import portfolio2 from "../images/portfolio2.png";
+import portfolio3 from "../images/portfolio3.png";
+import portfolio4 from "../images/portfolio4.png";
+import portfolio5 from "../images/portfolio5.png";
 
 const Homepage = () => {
   return (
@@ -63,7 +68,7 @@ const Homepage = () => {
                         />
                       </div>
                     </div>
-                    {/* <div class="vr"></div> */}
+                    <div class={` ${classes.vline}`}></div>
                     <div className="col">
                       <div className="input-group">
                         <div className="input-group-prepend">
@@ -120,6 +125,35 @@ const Homepage = () => {
             </div>
           </div>
         </section>
+        <section id="portfolio" className={classes.portfolioSection}>
+          <div className={`container ${classes.portfolioContainer}`}>
+            <div className="row">
+              <p className={classes.portfolioPara}>
+                Trusted by 150+ world's best companies
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img src={portfolio1} />
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img src={portfolio2} />
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img src={portfolio3} />
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img src={portfolio4} />
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img src={portfolio5} />
+              </div>
+              <div class="col-lg-1 "></div>
+            </div>
+          </div>
+        </section>
+        <section id="features">why hirace</section>
       </main>
       <footer></footer>
     </div>
