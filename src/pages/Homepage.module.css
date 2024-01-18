@@ -92,6 +92,7 @@
 
 .checkIcon {
   color: var(--primaryColor);
+  padding-top: 3px;
 }
 
 .checkRow {
@@ -150,7 +151,7 @@
   border-radius: 50px;
   width: fit-content;
   margin: auto;
-  padding: 5px 15px;
+  padding: 10px 20px;
   margin-top: 5%;
 }
 
@@ -212,6 +213,69 @@
   margin-left: 10px;
 }
 
+/* how it works */
+
+.howWorksContainer {
+  max-width: 100%;
+  text-align: center;
+}
+
+.personalDataCardContaienr {
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  border: solid 2px rgba(85, 96, 124, 0.2);
+  border-radius: 25px;
+  padding: 50px;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.personalDataNumber {
+  color: var(--primaryColor);
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.personalDataHeading {
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+
+.personalDataPara {
+  color: var(--textColor);
+  font-size: 20px;
+  width: 80%;
+  margin-left: 5%;
+}
+
+.hLine {
+  width: 80%;
+  padding: 0;
+  margin-left: 6%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.personalDataIconPara {
+  margin-left: 5%;
+}
+
+.perosnalDataIconParaContent {
+  width: 60%;
+  font-size: 18px;
+  color: var(--textColor);
+}
+
+.iconCotainer {
+  width: 0.5%;
+  margin-right: 20px;
+}
+
+.personalDataIconRow {
+  margin-left: 5%;
+}
 @media (max-width: 1200px) {
   .heroImg {
     width: 100%;

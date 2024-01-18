@@ -8,6 +8,7 @@ import portfolio2 from "../images/portfolio2.png";
 import portfolio3 from "../images/portfolio3.png";
 import portfolio4 from "../images/portfolio4.png";
 import portfolio5 from "../images/portfolio5.png";
+import img2 from "../images/img2.png";
 
 import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
@@ -240,6 +241,80 @@ const Homepage = () => {
                       </span>
                     </div>
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="how-works">
+          <div className={`container ${classes.howWorksContainer}`}>
+            <div className="row ">
+              <div className="col">
+                <div className={classes.featureBadge}>HOW IT WORKS</div>
+                <h1 className={classes.featureHeading}>
+                  Getting started is easy
+                </h1>
+                <p className={classes.featurePara}>
+                  Create a profile and we'll match you with the best your dream
+                  companies and jobs in the world.
+                </p>
+              </div>
+            </div>
+            <div className={`row ${classes.personalDataCardContaienr}`}>
+              <div className={`col-sm-12 col-md-12 col-lg-6 `}>
+                <img src={img2} alt="img2" className={classes.img2} />
+              </div>
+              <div
+                className={`col-sm-12 col-md-12 col-lg-6 ${classes.personalDataRightCol}`}
+              >
+                <div className={`row text-start`}>
+                  <h2 className={classes.personalDataNumber}>02</h2>
+                  <h1 className={classes.personalDataHeading}>
+                    Fill your Personal Data
+                  </h1>
+                  <p className={classes.personalDataPara}>
+                    Finish your register and and complete your personal data and
+                    prepare your resume.
+                  </p>
+                  <hr className={classes.hLine} />
+
+                  <div className={`row p-0 ${classes.personalDataIconRow}`}>
+                    <div className={`col-lg-1 text-start`}>
+                      {" "}
+                      <span
+                        class={`material-symbols-outlined  ${classes.checkIcon}`}
+                      >
+                        check_circle
+                      </span>
+                    </div>
+                    <div
+                      className={`col-lg-11 p-0 ${classes.perosnalDataIconParaContent}`}
+                    >
+                      <span className="text-dark">
+                        <strong>One workflow.</strong>
+                      </span>{" "}
+                      Easily collaborate with teams to find & hire the right
+                      candidate.
+                    </div>
+                  </div>
+                  <div className={`row p-0 ${classes.personalDataIconRow}`}>
+                    <div className={`col-lg-1 text-start`}>
+                      {" "}
+                      <span
+                        class={`material-symbols-outlined  ${classes.checkIcon}`}
+                      >
+                        check_circle
+                      </span>
+                    </div>
+                    <div
+                      className={`col-lg-11 p-0 ${classes.perosnalDataIconParaContent}`}
+                    >
+                      <span className="text-dark">
+                        <strong>Easier Applying.</strong>
+                      </span>{" "}
+                      Create aaccount that will engage your profile.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
