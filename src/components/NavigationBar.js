@@ -1,6 +1,7 @@
 import React from "react";
 import brand from "../images/logo.png";
 import classes from "./NavigationBar.module.css";
+import PrimaryButton from "./PrimaryButton";
 
 const NavigationBar = () => {
   return (
@@ -51,11 +52,7 @@ const NavigationBar = () => {
               </ul>
             </div>
 
-            <form className="d-flex">
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <PrimaryButton buttonText="Sign Up" />
           </div>
         </div>
       </nav>

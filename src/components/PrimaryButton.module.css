@@ -1,0 +1,16 @@
+.actionButton {
+  /* width: 8%; */
+  margin-left: auto;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--primaryColor);
+  border-radius: 10px;
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
