@@ -9,6 +9,10 @@ import portfolio3 from "../images/portfolio3.png";
 import portfolio4 from "../images/portfolio4.png";
 import portfolio5 from "../images/portfolio5.png";
 
+import icon1 from "../images/icon1.png";
+import icon2 from "../images/icon2.png";
+import icon3 from "../images/icon3.png";
+
 const Homepage = () => {
   return (
     <div>
@@ -153,7 +157,94 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <section id="features">why hirace</section>
+        <section id="features">
+          <div className={`container ${classes.featureContainer}`}>
+            <div className="row ">
+              <div className="col ">
+                <div className={classes.featureBadge}>WHY HIRAGE</div>
+                <h1 className={classes.featureHeading}>New way to get a Job</h1>
+                <p className={classes.featurePara}>
+                  Once you gain access to the Hirace platform you start out by
+                  adding your first team roles.
+                </p>
+              </div>
+            </div>
+            <div className={`row ${classes.featureCardRow}`}>
+              <div className={`col-lg-4 ${classes.featureCard}`}>
+                <div className={`row text-start`}>
+                  <img
+                    src={icon1}
+                    alt="icon1"
+                    className={classes.featureIcon}
+                  />
+                  <h4 className={classes.cardTitle}>Manage candidtes easily</h4>
+                  <p className={classes.cardPara}>
+                    Our easy-to-use software lets you evaluate candidates and
+                    move them faster.
+                  </p>
+                  <p className={classes.cardButton}>
+                    <div className={classes.cardButtonContent}>
+                      Learn More{" "}
+                      <span
+                        class={`material-symbols-outlined ${classes.cardButtonArrow}`}
+                      >
+                        arrow_right_alt
+                      </span>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div className={`col-lg-4 ${classes.featureCard}`}>
+                <div className={`row text-start`}>
+                  <img
+                    src={icon2}
+                    alt="icon2"
+                    className={classes.featureIcon}
+                  />
+                  <h4 className={classes.cardTitle}>Manage candidtes easily</h4>
+                  <p className={classes.cardPara}>
+                    Our easy-to-use software lets you evaluate candidates and
+                    move them faster.
+                  </p>
+                  <p className={classes.cardButton}>
+                    <div className={classes.cardButtonContent}>
+                      Learn More{" "}
+                      <span
+                        class={`material-symbols-outlined ${classes.cardButtonArrow}`}
+                      >
+                        arrow_right_alt
+                      </span>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div className={`col-lg-4 ${classes.featureCard}`}>
+                <div className={`row text-start`}>
+                  <img
+                    alt="icon3"
+                    src={icon3}
+                    className={classes.featureIcon}
+                  />
+                  <h4 className={classes.cardTitle}>Manage candidtes easily</h4>
+                  <p className={classes.cardPara}>
+                    Our easy-to-use software lets you evaluate candidates and
+                    move them faster.
+                  </p>
+                  <p className={classes.cardButton}>
+                    <div className={classes.cardButtonContent}>
+                      Learn More{" "}
+                      <span
+                        class={`material-symbols-outlined ${classes.cardButtonArrow}`}
+                      >
+                        arrow_right_alt
+                      </span>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer></footer>
     </div>

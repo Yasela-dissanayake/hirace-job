@@ -134,6 +134,82 @@
 .portfolioPara {
   color: var(--textColor);
   margin: 80px 0 30px;
+  font-size: 20px;
+}
+
+/* features  */
+
+.featureContainer {
+  max-width: 100%;
+  text-align: center;
+}
+
+.featureBadge {
+  color: var(--primaryColor);
+  border: solid 2px var(--primaryColor);
+  border-radius: 50px;
+  width: fit-content;
+  margin: auto;
+  padding: 5px 15px;
+  margin-top: 5%;
+}
+
+.featureHeading {
+  font-size: 54px;
+  margin-top: 1%;
+  margin-bottom: 0.8%;
+}
+
+.featurePara {
+  font-size: 20px;
+  color: var(--textColor);
+  width: 30%;
+  margin: auto;
+  margin-bottom: 4%;
+}
+
+.featureCardRow {
+  padding-left: 8%;
+  padding-right: 8%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.featureCard {
+  border: solid 2px rgba(85, 96, 124, 0.2);
+  border-radius: 25px;
+  padding: 50px;
+  margin: 0px;
+  width: 32%;
+}
+
+.featureIcon {
+  width: 90px;
+}
+
+.cardTitle {
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.cardPara {
+  color: var(--textColor);
+  font-size: 18px;
+}
+
+.cardButton {
+  color: var(--primaryColor);
+  font-size: 22px;
+  margin-top: 2%;
+}
+
+.cardButtonContent {
+  display: flex;
+  align-items: center;
+}
+
+.cardButtonArrow {
+  margin-left: 10px;
 }
 
 @media (max-width: 1200px) {
