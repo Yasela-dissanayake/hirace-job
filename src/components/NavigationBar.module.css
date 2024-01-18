@@ -1,0 +1,17 @@
+.mainNavContainer {
+  padding: 1% 3%;
+}
+
+.navItem {
+  color: black;
+  font-size: 18px;
+}
+
+.navList {
+  margin-right: 4%;
+}
+
+.navListContainer {
+  width: 100%;
+  margin-left: 10%;
+}

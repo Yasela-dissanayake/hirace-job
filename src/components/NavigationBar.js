@@ -1,9 +1,11 @@
 import React from "react";
+import brand from "../images/logo.png";
+import classes from "./NavigationBar.module.css";
 
 const NavigationBar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className={classes.mainNavContainer}>
+      <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={brand} />
@@ -20,28 +22,35 @@ const NavigationBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
-                  Job Vacancy
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Abou Us
-                </a>
-              </li>
-            </ul>
+            <div className={classes.navListContainer}>
+              <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+                <li className={`nav-item ${classes.navList}`}>
+                  <a
+                    className={`nav-link ${classes.navItem}`}
+                    aria-current="page"
+                    href="#"
+                  >
+                    Job Vacancy
+                  </a>
+                </li>
+                <li className={`nav-item ${classes.navList}`}>
+                  <a className={`nav-link ${classes.navItem}`} href="#">
+                    Features
+                  </a>
+                </li>
+                <li className={`nav-item ${classes.navList}`}>
+                  <a className={`nav-link ${classes.navItem}`} href="#">
+                    Pricing
+                  </a>
+                </li>
+                <li className={`nav-item ${classes.navList}`}>
+                  <a className={`nav-link ${classes.navItem}`} href="#">
+                    About Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+
             <form className="d-flex">
               <button className="btn btn-outline-success" type="submit">
                 Search
