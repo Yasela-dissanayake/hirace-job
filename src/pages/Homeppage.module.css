@@ -1,0 +1,125 @@
+/* hero section  */
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+
+  border-top: solid 1px rgba(85, 96, 124, 0.2);
+}
+
+.heroContainer {
+  padding-right: 8%;
+  padding-left: 8%;
+  max-width: 100%;
+}
+
+.badgeOuter {
+  border: solid 1px rgba(85, 96, 124, 0.2);
+  border-radius: 30px;
+  padding: 7px;
+  width: fit-content;
+  color: var(--primaryColor);
+}
+
+.innerBadge {
+  border-radius: 15px;
+  background-color: var(--primaryColor);
+  padding: 3px 10px;
+  width: fit-content;
+  color: white;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.badgeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeText {
+  font-weight: 500;
+  /* color: var(--primaryColor); */
+}
+
+.badgeArrow {
+  margin: 0 15px;
+}
+
+.heroHeading {
+  font-size: 60px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: -2px;
+  max-width: 80%;
+  margin-top: 3%;
+}
+
+.heroPara {
+  font-size: 20px;
+  color: var(--textColor);
+  max-width: 60%;
+  margin-top: 5%;
+}
+
+.searchIcon {
+  color: var(--textColor);
+}
+
+.searchRow {
+  max-width: 80%;
+  margin: 3% 0 5% 0;
+}
+
+.inputDiv {
+  border-radius: 15px;
+  border: solid 1px rgba(85, 96, 124, 0.2);
+  width: fit-content;
+  padding: 5px 15px;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  max-width: fit-content;
+}
+
+.checkIcon {
+  color: var(--primaryColor);
+}
+
+.checkRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImg {
+  width: 90%;
+}
+
+@media (max-width: 1200px) {
+  .heroImg {
+    width: 100%;
+  }
+
+  .heroHeading {
+    font-size: 48px;
+  }
+
+  .heroPara {
+    font-size: 16px;
+  }
+}
