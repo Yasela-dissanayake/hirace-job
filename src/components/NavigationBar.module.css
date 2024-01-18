@@ -12,6 +12,12 @@
 }
 
 .navListContainer {
-  width: 80%;
+  width: 70%;
   margin-left: 10%;
+}
+
+@media (max-width: 991px) {
+  .navListContainer {
+    margin-left: 1%;
+  }
 }

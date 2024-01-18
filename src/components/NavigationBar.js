@@ -6,7 +6,7 @@ import PrimaryButton from "./PrimaryButton";
 const NavigationBar = () => {
   return (
     <div className={classes.mainNavContainer}>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={brand} />
@@ -27,7 +27,7 @@ const NavigationBar = () => {
               <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                 <li className={`nav-item ${classes.navList}`}>
                   <a
-                    className={`nav-link ${classes.navItem}`}
+                    className={`nav-link text-dark ${classes.navItem}`}
                     aria-current="page"
                     href="#"
                   >
@@ -35,17 +35,26 @@ const NavigationBar = () => {
                   </a>
                 </li>
                 <li className={`nav-item ${classes.navList}`}>
-                  <a className={`nav-link ${classes.navItem}`} href="#">
+                  <a
+                    className={`nav-link text-dark ${classes.navItem}`}
+                    href="#"
+                  >
                     Features
                   </a>
                 </li>
                 <li className={`nav-item ${classes.navList}`}>
-                  <a className={`nav-link ${classes.navItem}`} href="#">
+                  <a
+                    className={`nav-link text-dark ${classes.navItem}`}
+                    href="#"
+                  >
                     Pricing
                   </a>
                 </li>
                 <li className={`nav-item ${classes.navList}`}>
-                  <a className={`nav-link ${classes.navItem}`} href="#">
+                  <a
+                    className={`nav-link text-dark ${classes.navItem}`}
+                    href="#"
+                  >
                     About Us
                   </a>
                 </li>
