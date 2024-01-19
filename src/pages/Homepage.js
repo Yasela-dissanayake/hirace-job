@@ -24,13 +24,13 @@ const Homepage = () => {
         <section id="hero" className={classes.heroSection}>
           <div className={`container ${classes.heroContainer}`}>
             <div className="row">
-              <div className="col-6">
+              <div className="col-lg-6 col-md-12">
                 <div className="row">
-                  <div className="col ">
+                  <div className="col mt-5 mt-lg-0">
                     <div className={`col d-flex ${classes.badgeOuter}`}>
                       <div className={classes.innerBadge}>NEW</div>
                       <div className={`col d-flex ${classes.badgeContent}`}>
-                        <p className={`m-0 ${classes.badgeText}`}>
+                        <p className={`m-0  ${classes.badgeText}`}>
                           WE ARE HIRING
                         </p>
                         <span
@@ -97,7 +97,7 @@ const Homepage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <p className="text-start">
                       <div className={classes.checkRow}>
@@ -122,9 +122,38 @@ const Homepage = () => {
                       </div>
                     </p>
                   </div>
+                </div> */}
+
+                <div className={`row`}>
+                  <div className={`col-12 col-md-6 ${classes.checkCol}`}>
+                    <p className="text-start">
+                      <div className={classes.checkRow}>
+                        <span
+                          class={`material-symbols-outlined p-0  ${classes.checkIcon}`}
+                        >
+                          check_circle
+                        </span>
+                        7 Days free trial
+                      </div>
+                    </p>
+                  </div>
+                  <div className={`col-12 col-md-6 ${classes.checkCol}`}>
+                    <p className="text-start">
+                      <div className={classes.checkRow}>
+                        <span
+                          class={`material-symbols-outlined p-0  ${classes.checkIcon}`}
+                        >
+                          check_circle
+                        </span>
+                        Easy to set up
+                      </div>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className={`col-lg-6 col-md-4 ${classes.heroImgContainer}`}>
+              <div
+                className={`col-lg-6 col-md-12 order-sm-first order-lg-last order-first  ${classes.heroImgContainer}`}
+              >
                 <img src={heroImg} alt="heroImg" className={classes.heroImg} />
               </div>
             </div>
@@ -137,8 +166,7 @@ const Homepage = () => {
                 Trusted by 150+ world's best companies
               </p>
             </div>
-            <div class="row">
-              <div class="col-lg-1"></div>
+            <div class="row justify-content-center">
               <div class="col-lg-2 col-md-4 col-sm-12">
                 <img src={portfolio1} />
               </div>
@@ -154,7 +182,6 @@ const Homepage = () => {
               <div class="col-lg-2 col-md-4 col-sm-12">
                 <img src={portfolio5} />
               </div>
-              <div class="col-lg-1 "></div>
             </div>
           </div>
         </section>

@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 85vh; */
   padding-top: 6%;
   padding-bottom: 6%;
 
@@ -43,7 +42,6 @@
 
 .badgeText {
   font-weight: 500;
-  /* color: var(--primaryColor); */
 }
 
 .badgeArrow {
@@ -92,13 +90,20 @@
 
 .checkIcon {
   color: var(--primaryColor);
-  padding-top: 3px;
+  margin-right: 10px;
 }
 
 .checkRow {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.checkCol {
+  width: fit-content;
+  font-size: 20px;
+  color: var(--textColor);
+  margin-right: 18px;
 }
 
 .heroImgContainer {
@@ -276,6 +281,13 @@
 .personalDataIconRow {
   margin-left: 5%;
 }
+
+.img2 {
+  width: 50%;
+}
+
+/* media queries */
+
 @media (max-width: 1200px) {
   .heroImg {
     width: 100%;
@@ -287,5 +299,44 @@
 
   .heroPara {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .heroHeading {
+    max-width: 100%;
+  }
+
+  .heroPara {
+    font-size: 20px;
+    margin-top: 1%;
+  }
+
+  .featurePara {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  .searchRow {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .heroHeading {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .heroPara {
+    max-width: 100%;
+  }
+
+  .featurePara {
+    width: 80%;
+  }
+
+  .featureHeading {
+    padding-left: 10px;
   }
 }
