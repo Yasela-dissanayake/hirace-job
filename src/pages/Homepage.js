@@ -308,7 +308,7 @@ const Homepage = () => {
                   <hr className={classes.hLine} />
 
                   <div className={`row p-0 ${classes.personalDataIconRow}`}>
-                    <div className={`col-lg-1 text-start`}>
+                    <div className={`col-1 text-start`}>
                       {" "}
                       <span
                         class={`material-symbols-outlined  ${classes.checkIcon}`}
@@ -317,7 +317,7 @@ const Homepage = () => {
                       </span>
                     </div>
                     <div
-                      className={`col-lg-11 p-0 ${classes.perosnalDataIconParaContent}`}
+                      className={`col-11 p-0 ${classes.perosnalDataIconParaContent}`}
                     >
                       <span className="text-dark">
                         <strong>One workflow.</strong>
@@ -327,7 +327,7 @@ const Homepage = () => {
                     </div>
                   </div>
                   <div className={`row p-0 ${classes.personalDataIconRow}`}>
-                    <div className={`col-lg-1 text-start`}>
+                    <div className={`col-1 text-start`}>
                       {" "}
                       <span
                         class={`material-symbols-outlined  ${classes.checkIcon}`}
@@ -336,7 +336,7 @@ const Homepage = () => {
                       </span>
                     </div>
                     <div
-                      className={`col-lg-11 p-0 ${classes.perosnalDataIconParaContent}`}
+                      className={`col-11 p-0 ${classes.perosnalDataIconParaContent}`}
                     >
                       <span className="text-dark">
                         <strong>Easier Applying.</strong>
