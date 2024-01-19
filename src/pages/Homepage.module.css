@@ -185,8 +185,8 @@
   border: solid 2px rgba(85, 96, 124, 0.2);
   border-radius: 25px;
   padding: 50px;
-  margin: 0px;
-  width: 32%;
+  margin: 10px;
+  width: 30%;
 }
 
 .featureIcon {
@@ -315,6 +315,11 @@
   .featurePara {
     width: 50%;
   }
+
+  .featureCard {
+    width: 45%;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -334,9 +339,15 @@
 
   .featurePara {
     width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 
   .featureHeading {
     padding-left: 10px;
+  }
+
+  .featureCard {
+    width: 100%;
   }
 }

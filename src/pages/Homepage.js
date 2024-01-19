@@ -197,8 +197,10 @@ const Homepage = () => {
                 </p>
               </div>
             </div>
-            <div className={`row ${classes.featureCardRow}`}>
-              <div className={`col-lg-4 ${classes.featureCard}`}>
+            <div
+              className={`row justify-content-center ${classes.featureCardRow}`}
+            >
+              <div className={`col-lg-4  ${classes.featureCard}`}>
                 <div className={`row text-start`}>
                   <img
                     src={icon1}
@@ -222,7 +224,7 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
-              <div className={`col-lg-4 ${classes.featureCard}`}>
+              <div className={`col-lg-4  ${classes.featureCard}`}>
                 <div className={`row text-start`}>
                   <img
                     src={icon2}
@@ -246,7 +248,7 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
-              <div className={`col-lg-4 ${classes.featureCard}`}>
+              <div className={`col-lg-4  ${classes.featureCard}`}>
                 <div className={`row text-start`}>
                   <img
                     alt="icon3"
