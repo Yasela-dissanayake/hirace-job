@@ -27,7 +27,7 @@ const NavigationBar = () => {
               <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                 <li className={`nav-item ${classes.navList}`}>
                   <a
-                    className={`nav-link text-dark ${classes.navItem}`}
+                    className={`nav-link ${classes.navItem}`}
                     aria-current="page"
                     href="#"
                   >
@@ -35,18 +35,12 @@ const NavigationBar = () => {
                   </a>
                 </li>
                 <li className={`nav-item ${classes.navList}`}>
-                  <a
-                    className={`nav-link text-dark ${classes.navItem}`}
-                    href="#"
-                  >
+                  <a className={`nav-link ${classes.navItem}`} href="#">
                     Features
                   </a>
                 </li>
                 <li className={`nav-item ${classes.navList}`}>
-                  <a
-                    className={`nav-link text-dark ${classes.navItem}`}
-                    href="#"
-                  >
+                  <a className={`nav-link ${classes.navItem}`} href="#">
                     Pricing
                   </a>
                 </li>

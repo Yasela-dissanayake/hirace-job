@@ -3,7 +3,7 @@
 }
 
 .navItem {
-  color: black;
+  color: black !important;
   font-size: 18px;
 }
 
@@ -14,6 +14,10 @@
 .navListContainer {
   width: 70%;
   margin-left: 10%;
+}
+
+.navItem:hover {
+  color: var(--primaryColor) !important;
 }
 
 @media (max-width: 991px) {
