@@ -63,3 +63,20 @@
   border: solid 1.5px var(--primaryColor);
   box-shadow: 5px 5px var(--primaryColor);
 }
+
+.tabCardBottomColMob {
+  display: none;
+}
+
+.tabCardSmallIconColMob {
+  max-width: fit-content;
+}
+
+@media (max-width: 576px) {
+  .tabCardBottomCol {
+    display: none;
+  }
+  .tabCardBottomColMob {
+    display: block;
+  }
+}

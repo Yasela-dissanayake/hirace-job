@@ -28,7 +28,7 @@ const TabCard = ({
             arrow_right_alt
           </span>
         </div>
-        <div className={`col-4 text-end ${classes.tabCardDate}`}>{date}</div>
+        <div className={`col-sm-4 text-end ${classes.tabCardDate}`}>{date}</div>
       </div>
       <div className={`row`}>
         <p className={`${classes.tabCardPara}`}>{para}</p>
@@ -39,7 +39,7 @@ const TabCard = ({
           <span class={`material-symbols-outlined ${classes.tabCardSmallIcon}`}>
             location_on
           </span>
-          New York
+          {location}
           <span className={classes.tabCardDot}>•</span>
           <span class={`material-symbols-outlined ${classes.tabCardSmallIcon}`}>
             monetization_on
@@ -47,6 +47,38 @@ const TabCard = ({
           {salary}
           <span className={classes.tabCardDot}>•</span>
           {jobtype}
+        </div>
+        <div className={classes.tabCardBottomColMob}>
+          <div className="row">
+            <div className={`col ${classes.tabCardSmallIconColMob}`}>
+              <span
+                class={`material-symbols-outlined ${classes.tabCardSmallIcon}`}
+              >
+                location_on
+              </span>
+            </div>
+            <div className={`col`}>{location}</div>
+          </div>{" "}
+          <div className="row">
+            <div className={`col ${classes.tabCardSmallIconColMob}`}>
+              <span
+                class={`material-symbols-outlined ${classes.tabCardSmallIcon}`}
+              >
+                monetization_on
+              </span>
+            </div>
+            <div className={`col`}>{salary}</div>
+          </div>{" "}
+          <div className="row">
+            <div className={`col ${classes.tabCardSmallIconColMob}`}>
+              <span
+                class={`material-symbols-outlined ${classes.tabCardSmallIcon}`}
+              >
+                work_history
+              </span>
+            </div>
+            <div className={`col`}>{jobtype}</div>
+          </div>{" "}
         </div>
       </div>
     </div>
