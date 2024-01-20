@@ -301,8 +301,6 @@
 .stepContent {
   border-top: solid 5px rgba(85, 96, 124, 0.2);
   color: var(--textColor);
-  /* width: 90%; */
-  /* margin: auto; */
 }
 
 .stepNumber {
@@ -325,6 +323,24 @@
 .stepContent:hover .stepHeading {
   border-color: var(--primaryColor);
   color: var(--primaryColor);
+}
+
+/* job vacancy */
+
+.navPills {
+  justify-content: center;
+}
+
+.tabButton .tabButton {
+  margin-left: auto;
+  color: white;
+  font-size: 18px;
+  border: solid 2px transparent;
+  padding: 10px 20px;
+  background: var(--primaryColor);
+
+  border-radius: 10px;
+  /* transition: ease-in-out 0.3s; */
 }
 
 /* media queries */
