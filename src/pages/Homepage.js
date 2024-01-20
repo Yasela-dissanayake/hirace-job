@@ -349,10 +349,12 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <section id="how-works">
-          <div className={`container ${classes.stepsContainer}`}>
-            <div className={`row ${classes.stepRow}`}>
-              <div className={`col-3 text-start`}>
+        <section id="steps">
+          <div
+            className={`container-fluid d-flex gy-5 mt-5 ${classes.stepsContainer}`}
+          >
+            <div className={`row gy-5 gx-5 ${classes.stepRow}`}>
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
                 <div className={classes.stepContent}>
                   <p className={classes.stepNumber}>01</p>
                   <h4 className={classes.stepHeading}>Login or Register</h4>
@@ -361,14 +363,32 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
-              <div className={`col-3`}>
-                <img src={img2} alt="img2" className={classes.img2} />
-              </div>
-              <div className={`col-3`}>
-                <img src={img2} alt="img2" className={classes.img2} />
-              </div>
-              <div className={`col-3`}>
-                <img src={img2} alt="img2" className={classes.img2} />
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>01</p>
+                  <h4 className={classes.stepHeading}>Login or Register</h4>
+                  <p className={classes.stepPara}>
+                    Follow the whole step and you're just ready to get started.
+                  </p>
+                </div>
+              </div>{" "}
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>01</p>
+                  <h4 className={classes.stepHeading}>Login or Register</h4>
+                  <p className={classes.stepPara}>
+                    Follow the whole step and you're just ready to get started.
+                  </p>
+                </div>
+              </div>{" "}
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>01</p>
+                  <h4 className={classes.stepHeading}>Login or Register</h4>
+                  <p className={classes.stepPara}>
+                    Follow the whole step and you're just ready to get started.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

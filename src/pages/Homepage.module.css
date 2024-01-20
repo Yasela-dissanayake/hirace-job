@@ -289,25 +289,40 @@
 /* steps section  */
 
 .stepsContainer {
-  max-width: 100%;
-  text-align: center;
+  column-gap: 50px !important;
 }
 
 .stepRow {
-  margin: auto;
   margin-left: 8%;
   margin-right: 8%;
   margin-bottom: 4%;
-  /* display: flex;
-  align-items: center; */
 }
 
 .stepContent {
   border-top: solid 5px rgba(85, 96, 124, 0.2);
   color: var(--textColor);
+  /* width: 90%; */
+  /* margin: auto; */
+}
+
+.stepNumber {
+  font-size: 22px;
+  margin-top: 8%;
+}
+
+.stepHeading {
+  color: black;
+}
+
+.stepPara {
+  font-size: 18px;
 }
 
 .stepContent:hover {
+  border-color: var(--primaryColor);
+}
+
+.stepContent:hover .stepHeading {
   border-color: var(--primaryColor);
   color: var(--primaryColor);
 }
