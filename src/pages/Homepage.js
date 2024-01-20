@@ -15,6 +15,9 @@ import img2 from "../images/img2.png";
 import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
 import icon3 from "../images/icon3.png";
+import TabCard from "../components/TabCard";
+
+import loom from "../images/loom.png";
 
 const Homepage = () => {
   return (
@@ -441,8 +444,10 @@ const Homepage = () => {
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
               >
-                <div className={`row row-cols-2`}>
-                  <div className={`col`}>a</div>
+                <div className={`row row-cols-lg-2 row-cols-1 mt-5`}>
+                  <div className={`col `}>
+                    <TabCard img={loom} />
+                  </div>
                   <div className={`col`}>a</div>
                   <div className={`col`}>a</div>
                   <div className={`col`}>a</div>
