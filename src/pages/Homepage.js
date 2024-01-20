@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
 import classes from "./Homepage.module.css";
-import "./Homepage.module.css";
+// import "./Homepage.module.css";
 
 import heroImg from "../images/img1.png";
 import PrimaryButton from "../components/PrimaryButton";
@@ -17,7 +17,7 @@ import icon2 from "../images/icon2.png";
 import icon3 from "../images/icon3.png";
 import TabCard from "../components/TabCard";
 
-import loom from "../images/loom.png";
+import { Jobs } from "../data/Jobs";
 
 const Homepage = () => {
   return (
@@ -445,14 +445,20 @@ const Homepage = () => {
                 aria-labelledby="pills-home-tab"
               >
                 <div className={`row row-cols-lg-2 row-cols-1 mt-5`}>
-                  <div className={`col `}>
-                    <TabCard img={loom} />
-                  </div>
-                  <div className={`col`}>a</div>
-                  <div className={`col`}>a</div>
-                  <div className={`col`}>a</div>
-                  <div className={`col`}>a</div>
-                  <div className={`col`}>a</div>
+                  {Jobs.map((job) => (
+                    <div className={`col gy-4 gx-4`}>
+                      <TabCard
+                        img={job.icon}
+                        title={job.title}
+                        subtitle={job.subtitle}
+                        para={job.para}
+                        location={job.location}
+                        date={job.date}
+                        salary={job.salary}
+                        jobtype={job.jobtype}
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
               <div
