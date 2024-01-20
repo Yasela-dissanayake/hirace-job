@@ -286,6 +286,32 @@
   width: 100%;
 }
 
+/* steps section  */
+
+.stepsContainer {
+  max-width: 100%;
+  text-align: center;
+}
+
+.stepRow {
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 4%;
+  /* display: flex;
+  align-items: center; */
+}
+
+.stepContent {
+  border-top: solid 5px rgba(85, 96, 124, 0.2);
+  color: var(--textColor);
+}
+
+.stepContent:hover {
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
 /* media queries */
 
 @media (max-width: 1200px) {

@@ -349,6 +349,30 @@ const Homepage = () => {
             </div>
           </div>
         </section>
+        <section id="how-works">
+          <div className={`container ${classes.stepsContainer}`}>
+            <div className={`row ${classes.stepRow}`}>
+              <div className={`col-3 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>01</p>
+                  <h4 className={classes.stepHeading}>Login or Register</h4>
+                  <p className={classes.stepPara}>
+                    Follow the whole step and you're just ready to get started.
+                  </p>
+                </div>
+              </div>
+              <div className={`col-3`}>
+                <img src={img2} alt="img2" className={classes.img2} />
+              </div>
+              <div className={`col-3`}>
+                <img src={img2} alt="img2" className={classes.img2} />
+              </div>
+              <div className={`col-3`}>
+                <img src={img2} alt="img2" className={classes.img2} />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer></footer>
     </div>
