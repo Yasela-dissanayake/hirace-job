@@ -446,7 +446,7 @@ const Homepage = () => {
               >
                 <div className={`row row-cols-lg-2 row-cols-1 mt-5`}>
                   {Jobs.map((job) => (
-                    <div className={`col gy-4 gx-4`}>
+                    <div className={`col gy-4 gx-4 `}>
                       <TabCard
                         img={job.icon}
                         title={job.title}
