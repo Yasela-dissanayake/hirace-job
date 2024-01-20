@@ -1,0 +1,65 @@
+.mainContainer {
+  border: solid 1.5px rgba(85, 96, 124, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.tabCardArrowCol {
+  display: none;
+}
+
+.tabCardArrow {
+  color: var(--primaryColor);
+  font-size: 36px;
+}
+
+.tabCardDate {
+  color: var(--primaryColor);
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.tabCardPara {
+  color: var(--textColor);
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.tabCardIcon {
+  max-width: fit-content;
+}
+
+.tabCardSubTitle {
+  color: var(--textColor);
+  margin-top: -5px;
+}
+
+.tabCardDot {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgba(85, 96, 124, 0.6);
+}
+
+.tabCardBottomCol {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.mainContainer:hover .tabCardArrowCol {
+  display: block;
+}
+
+.tabCardSmallIcon {
+  margin-right: 10px;
+  color: var(--textColor);
+}
+
+.mainContainer:hover .tabCardDate {
+  display: none;
+}
+
+.mainContainer:hover {
+  border: solid 1.5px var(--primaryColor);
+  box-shadow: 5px 5px var(--primaryColor);
+}
