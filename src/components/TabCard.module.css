@@ -46,13 +46,13 @@
   font-size: 18px;
 }
 
-.mainContainer:hover .tabCardArrowCol {
-  display: block;
-}
-
 .tabCardSmallIcon {
   margin-right: 10px;
   color: var(--textColor);
+}
+
+.mainContainer:hover .tabCardArrowCol {
+  display: block;
 }
 
 .mainContainer:hover .tabCardDate {

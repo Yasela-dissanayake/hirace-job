@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
 import classes from "./Homepage.module.css";
-// import "./Homepage.module.css";
 
 import heroImg from "../images/img1.png";
 import PrimaryButton from "../components/PrimaryButton";
@@ -398,8 +397,20 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <section id="job-vacancy">
-          <div className={`container  ${classes.vacancyContainer}`}>
+        <section id="job-vacancy" className={classes.jobVacancySection}>
+          <div className={`container ${classes.vacancyContainer}`}>
+            <div className="row text-center">
+              <div className="col">
+                <div className={classes.featureBadge}>JOB VACANCIES</div>
+                <h1 className={classes.featureHeading}>
+                  Discover the best job
+                </h1>
+                <p className={`${classes.featurePara} ${classes.vacancyPara}`}>
+                  Start cereer withthe best company in the world, we ensures you
+                  to get the best job possible.
+                </p>
+              </div>
+            </div>
             <ul
               className={`nav nav-pills mb-3 ${classes.navPills}`}
               id="pills-tab"
@@ -410,7 +421,7 @@ const Homepage = () => {
                 role="presentation"
               >
                 <button
-                  className={`nav-link active `}
+                  className={`nav-link active px-5 ${classes.tabButton}`}
                   id="pills-home-tab"
                   data-bs-toggle="pill"
                   data-bs-target="#pills-home"
@@ -424,7 +435,7 @@ const Homepage = () => {
               </li>
               <li className="nav-item" role="presentation">
                 <button
-                  className="nav-link"
+                  className={`nav-link px-5 ${classes.tabButton}`}
                   id="pills-profile-tab"
                   data-bs-toggle="pill"
                   data-bs-target="#pills-profile"
@@ -444,7 +455,7 @@ const Homepage = () => {
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
               >
-                <div className={`row row-cols-lg-2 row-cols-1 mt-5`}>
+                <div className={`row row-cols-lg-2 row-cols-1 mt-5 `}>
                   {Jobs.map((job) => (
                     <div className={`col gy-4 gx-4 `}>
                       <TabCard
@@ -467,7 +478,35 @@ const Homepage = () => {
                 role="tabpanel"
                 aria-labelledby="pills-profile-tab"
               >
-                ...cxcxvxcvxvxcv
+                <div className={`row row-cols-lg-2 row-cols-1 mt-5 `}>
+                  {Jobs.map((job) => (
+                    <div className={`col gy-4 gx-4 `}>
+                      <TabCard
+                        img={job.icon}
+                        title={job.title}
+                        subtitle={job.subtitle}
+                        para={job.para}
+                        location={job.location}
+                        date={job.date}
+                        salary={job.salary}
+                        jobtype={job.jobtype}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className={`row mt-5 text-center`}>
+              <div className={`col ${classes.tabCardBottomCol}`}>
+                Did not find what you're looking for?
+                <span className={`${classes.tabSectionBottomLineLink}`}>
+                  View All Job
+                </span>
+                <span
+                  class={`material-symbols-outlined ${classes.tabBottomLineArrow}`}
+                >
+                  arrow_right_alt
+                </span>
               </div>
             </div>
           </div>
