@@ -348,7 +348,52 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+          <div
+            className={`container-fluid d-flex gy-5 mt-5 ${classes.stepsContainer}`}
+          >
+            <div className={`row gy-5 gx-5 ${classes.stepRow}`}>
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>01</p>
+                  <h4 className={classes.stepHeading}>Login or Register</h4>
+                  <p className={classes.stepPara}>
+                    Follow the whole step and you're just ready to get started.
+                  </p>
+                </div>
+              </div>
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>02</p>
+                  <h4 className={classes.stepHeading}>
+                    Fill your Personal Data
+                  </h4>
+                  <p className={classes.stepPara}>
+                    Finish your register and and complete your personal data.
+                  </p>
+                </div>
+              </div>{" "}
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>03</p>
+                  <h4 className={classes.stepHeading}>Upload your Resume</h4>
+                  <p className={classes.stepPara}>
+                    Upload your latest resume that match with your background.
+                  </p>
+                </div>
+              </div>{" "}
+              <div className={`col-lg-3 col-md-4 col-sm-6 col-12 text-start`}>
+                <div className={classes.stepContent}>
+                  <p className={classes.stepNumber}>04</p>
+                  <h4 className={classes.stepHeading}>Find the Match Job</h4>
+                  <p className={classes.stepPara}>
+                    Look for job vacancy and immediately get your dream job.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
+        <section id="job-vacancy"></section>
       </main>
       <footer></footer>
     </div>
