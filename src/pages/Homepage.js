@@ -500,7 +500,7 @@ const Homepage = () => {
               <div className={`col ${classes.tabCardBottomCol}`}>
                 Did not find what you're looking for?
                 <span className={`${classes.tabSectionBottomLineLink}`}>
-                  View All Job
+                  <a href="#">View All Job</a>
                 </span>
                 <span
                   class={`material-symbols-outlined ${classes.tabBottomLineArrow}`}

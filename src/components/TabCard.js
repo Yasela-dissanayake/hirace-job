@@ -24,9 +24,11 @@ const TabCard = ({
           <div className={`row ${classes.tabCardSubTitle}`}>{subtitle}</div>
         </div>
         <div className={`col-4 text-end ${classes.tabCardArrowCol}`}>
-          <span class={`material-symbols-outlined ${classes.tabCardArrow}`}>
-            arrow_right_alt
-          </span>
+          <a href="#">
+            <span class={`material-symbols-outlined ${classes.tabCardArrow}`}>
+              arrow_right_alt
+            </span>
+          </a>
         </div>
         <div className={`col-sm-4 text-end ${classes.tabCardDate}`}>{date}</div>
       </div>

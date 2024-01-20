@@ -356,9 +356,12 @@
 }
 
 .tabSectionBottomLineLink {
-  color: var(--primaryColor);
   text-decoration: underline;
   margin-left: 10px;
+}
+
+.tabSectionBottomLineLink a {
+  color: var(--primaryColor) !important;
 }
 
 .tabCardBottomCol {
