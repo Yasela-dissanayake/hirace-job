@@ -19,6 +19,7 @@ import icon3 from "../images/icon3.png";
 import TabCard from "../components/TabCard";
 
 import { Jobs } from "../data/Jobs";
+import MainFooter from "../components/MainFooter";
 
 const Homepage = () => {
   return (
@@ -513,7 +514,7 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        <section className={`${classes.newLetterSection}`}>
+        <section id="newsletter" className={`${classes.newLetterSection}`}>
           <div className={`container-fluid ${classes.newLetterCotainer}`}>
             <div className={`row`}>
               <div
@@ -536,7 +537,9 @@ const Homepage = () => {
           </div>
         </section>
       </main>
-      <footer></footer>
+      <footer>
+        <MainFooter />
+      </footer>
     </div>
   );
 };

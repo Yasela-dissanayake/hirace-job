@@ -380,7 +380,7 @@
 /* new letter */
 
 .newLetterSection {
-  background-color: var(--bgColor);
+  background: linear-gradient(to bottom, var(--bgColor) 50%, white 50%);
   padding-left: 8%;
   padding-right: 8%;
 }
@@ -389,7 +389,7 @@
   border-radius: 25px;
   padding-top: 40px;
   padding-left: 80px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .newsLetterLeftCol {
