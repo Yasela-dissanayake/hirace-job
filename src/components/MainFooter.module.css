@@ -23,13 +23,16 @@
 }
 
 .footerCatPara {
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .hrFooter {
   margin-top: 5%;
   margin-bottom: 1.5%;
 }
+
 .copyrightPara {
   color: var(--textColor);
 }
@@ -44,8 +47,34 @@
   color: var(--textColor);
 }
 
+@media (max-width: 1200px) {
+  .footerPara {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .footerPara {
+    width: 100%;
+  }
+}
+
 @media (max-width: 575px) {
   .link {
     margin-left: 15px;
+  }
+
+  .footerCatPara {
+    margin-top: 10px;
+  }
+
+  .footerCatHeading {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .hrFooter {
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 }

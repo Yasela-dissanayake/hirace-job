@@ -7,7 +7,9 @@ const MainFooter = () => {
     <section className={`${classes.footerSection}`}>
       <div className={`container-fluid ${classes.footerContainer}`}>
         <div className={`row `}>
-          <div className={`col-md-6 {classes.footerLeftCol}`}>
+          <div
+            className={`col-lg-6 col-md-5 col-sm-12 {classes.footerLeftCol}`}
+          >
             <div className={`row `}>
               <img className={`p-0 ${classes.logo}`} src={logo} />
               <div className="row">
@@ -17,22 +19,24 @@ const MainFooter = () => {
               </div>
             </div>{" "}
           </div>
-          <div className={`col-lg-6 ${classes.footerRightCol}`}>
-            <div className={`row`}>
-              <div className={`col-md-4`}>
+          <div
+            className={`col-lg-6 col-md-7 col-sm-12 ${classes.footerRightCol}`}
+          >
+            <div className="row">
+              <div className={`col-sm-4 col-6 mt-2 mt-sm-0`}>
                 <p className={classes.footerCatHeading}>Product</p>
                 <p className={classes.footerCatPara}>Remote Job</p>
                 <p className={classes.footerCatPara}>Startup</p>
                 <p className={classes.footerCatPara}>Investor & Board</p>
                 <p className={classes.footerCatPara}>Company</p>
               </div>
-              <div className={`col-md-4`}>
+              <div className={`col-sm-4 col-6 mt-2 mt-sm-0`}>
                 <p className={classes.footerCatHeading}>Features</p>
                 <p className={classes.footerCatPara}>For Candidate</p>
                 <p className={classes.footerCatPara}>For Company</p>
                 <p className={classes.footerCatPara}>Society</p>
               </div>{" "}
-              <div className={`col-md-4`}>
+              <div className={`col-sm-4 col-6 mt-2 mt-sm-0`}>
                 <p className={classes.footerCatHeading}>About Us</p>
                 <p className={classes.footerCatPara}>Documentation</p>
                 <p className={classes.footerCatPara}>Contact Us</p>
