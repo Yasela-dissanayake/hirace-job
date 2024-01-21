@@ -4,12 +4,14 @@ import classes from "./Homepage.module.css";
 
 import heroImg from "../images/img1.png";
 import PrimaryButton from "../components/PrimaryButton";
+import SecondaryButton from "../components/SecondaryButton";
 import portfolio1 from "../images/portfolio1.png";
 import portfolio2 from "../images/portfolio2.png";
 import portfolio3 from "../images/portfolio3.png";
 import portfolio4 from "../images/portfolio4.png";
 import portfolio5 from "../images/portfolio5.png";
 import img2 from "../images/img2.png";
+import img4 from "../images/bottomimgv2.png";
 
 import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
@@ -507,6 +509,28 @@ const Homepage = () => {
                 >
                   arrow_right_alt
                 </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className={`${classes.newLetterSection}`}>
+          <div className={`container-fluid ${classes.newLetterCotainer}`}>
+            <div className={`row`}>
+              <div
+                className={`col-md-6 align-items-end d-flex ${classes.newsLetterLeftCol}`}
+              >
+                <div className={`row `}>
+                  <h1 className={`${classes.newsLetterHeading}`}>
+                    Set up personalized job search alerts
+                  </h1>
+
+                  <div className={classes.newsLetterButtonContainer}>
+                    <SecondaryButton buttonText="Sign Up" />
+                  </div>
+                </div>{" "}
+              </div>
+              <div className={`col-md-6 ${classes.newsLetterImgCol}`}>
+                <img className={classes.newsLetterImg} src={img4} />{" "}
               </div>
             </div>
           </div>
