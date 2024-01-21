@@ -221,7 +221,7 @@ const Homepage = () => {
                   </p>
                   <p className={classes.cardButton}>
                     <div className={classes.cardButtonContent}>
-                      Learn More{" "}
+                      <a href="#">Learn More</a>
                       <span
                         class={`material-symbols-outlined ${classes.cardButtonArrow}`}
                       >
@@ -245,7 +245,7 @@ const Homepage = () => {
                   </p>
                   <p className={classes.cardButton}>
                     <div className={classes.cardButtonContent}>
-                      Learn More{" "}
+                      <a href="#">Learn More</a>
                       <span
                         class={`material-symbols-outlined ${classes.cardButtonArrow}`}
                       >
@@ -269,7 +269,7 @@ const Homepage = () => {
                   </p>
                   <p className={classes.cardButton}>
                     <div className={classes.cardButtonContent}>
-                      Learn More{" "}
+                      <a href="#">Learn More</a>
                       <span
                         class={`material-symbols-outlined ${classes.cardButtonArrow}`}
                       >

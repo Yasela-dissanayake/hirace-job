@@ -25,22 +25,42 @@ const MainFooter = () => {
             <div className="row">
               <div className={`col-sm-4 col-6 mt-2 mt-sm-0`}>
                 <p className={classes.footerCatHeading}>Product</p>
-                <p className={classes.footerCatPara}>Remote Job</p>
-                <p className={classes.footerCatPara}>Startup</p>
-                <p className={classes.footerCatPara}>Investor & Board</p>
-                <p className={classes.footerCatPara}>Company</p>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Remote Job</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Startup</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Investor & Board</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Company</p>
+                </a>
               </div>
               <div className={`col-sm-4 col-6 mt-2 mt-sm-0`}>
                 <p className={classes.footerCatHeading}>Features</p>
-                <p className={classes.footerCatPara}>For Candidate</p>
-                <p className={classes.footerCatPara}>For Company</p>
-                <p className={classes.footerCatPara}>Society</p>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>For Candidate</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>For Company</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Society</p>
+                </a>
               </div>{" "}
               <div className={`col-sm-4 col-6 mt-2 mt-sm-0`}>
                 <p className={classes.footerCatHeading}>About Us</p>
-                <p className={classes.footerCatPara}>Documentation</p>
-                <p className={classes.footerCatPara}>Contact Us</p>
-                <p className={classes.footerCatPara}>Career</p>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Documentation</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Contact Us</p>
+                </a>
+                <a href="#" className={classes.footerCatLink}>
+                  <p className={classes.footerCatPara}>Career</p>
+                </a>
               </div>
             </div>
           </div>
