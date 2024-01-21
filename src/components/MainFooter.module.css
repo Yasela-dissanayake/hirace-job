@@ -43,3 +43,9 @@
   text-decoration: none;
   color: var(--textColor);
 }
+
+@media (max-width: 575px) {
+  .link {
+    margin-left: 15px;
+  }
+}

@@ -42,29 +42,29 @@ const MainFooter = () => {
           </div>
           <hr className={classes.hrFooter} />
           <div className="row m-0 p-0 align-items-center">
-            <div className="col-lg-9 p-0">
+            <div className="col-xxl-9 col-xl-8 col-lg-7 col-md-5 p-0 text-center text-md-start">
               <p className={`${classes.copyrightPara} m-0`}>
                 ©2023 Hirace Technologies. Inc.
               </p>{" "}
             </div>
-            <div className="col-lg-3 ">
-              <div className="row align-items-center">
-                <div className="col-3 p-0">
+            <div className="col-xxl-3 col-xl-4 col-lg-5 col-md-7 order-first order-md-last">
+              <div className="row align-items-center mt-2 mt-sm-0">
+                <div className="col-sm-3 col-4 p-0 text-end text-sm-start text-md-center text-lg-start">
                   <a href="#" className={classes.link}>
                     Terms
                   </a>
                 </div>
-                <div className="col-3 p-0">
+                <div className="col-sm-3 col-4 p-0 text-center text-sm-start text-md-center text-lg-start">
                   <a href="#" className={classes.link}>
                     Privacy
                   </a>
                 </div>
-                <div className="col-3 p-0">
+                <div className="col-sm-3 col-4 p-0 text-start text-md-center text-lg-start">
                   <a href="#" className={classes.link}>
                     Legal
                   </a>
                 </div>
-                <div className="col-3 text-end">
+                <div className="col-sm-3 col-12 text-sm-end text-center mt-2 mt-sm-0">
                   <div className="row">
                     <div className={`col-4 ${classes.socialIconCol}`}>
                       <a href="#">
