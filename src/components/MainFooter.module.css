@@ -1,0 +1,45 @@
+.footerSection {
+  background-color: white;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 160px;
+}
+
+.footerPara {
+  color: var(--textColor);
+  font-size: 18px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.footerCatHeading {
+  font-size: 20px;
+  color: var(--textColor);
+  margin-bottom: 20px;
+}
+
+.footerCatPara {
+  margin-top: 10px;
+}
+
+.hrFooter {
+  margin-top: 5%;
+  margin-bottom: 1.5%;
+}
+.copyrightPara {
+  color: var(--textColor);
+}
+
+.socialIconCol a {
+  font-size: 28px;
+  color: var(--textColor);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--textColor);
+}
