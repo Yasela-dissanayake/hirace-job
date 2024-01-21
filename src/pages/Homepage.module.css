@@ -377,6 +377,40 @@
   color: var(--primaryColor);
 }
 
+/* new letter */
+
+.newLetterSection {
+  background-color: var(--bgColor);
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.newLetterCotainer {
+  background-color: var(--primaryColor);
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-left: 80px;
+  margin-bottom: 200px;
+}
+
+.newsLetterLeftCol {
+  margin-bottom: 70px;
+}
+
+.newsLetterHeading {
+  color: white;
+  font-size: 60px;
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.newsLetterImgCol {
+  display: flex;
+}
+
+.newsLetterImg {
+  width: 95%;
+}
+
 /* media queries */
 
 @media (max-width: 1200px) {
@@ -398,6 +432,11 @@
   }
   .checkIcon {
     margin-top: 3px;
+  }
+
+  .newsLetterHeading {
+    font-size: 50px;
+    width: 95%;
   }
 }
 
@@ -423,6 +462,28 @@
   .personalDataNumber {
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+
+  .newsLetterHeading {
+    font-size: 36px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .newLetterCotainer {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 200px;
+  }
+
+  .newsLetterImg {
+    width: 100%;
+  }
+
+  .newsLetterHeading {
+    font-size: 48px;
   }
 }
 
@@ -468,5 +529,9 @@
   .perosnalDataIconParaContent {
     font-size: 16px;
     margin-left: 20px;
+  }
+
+  .newsLetterHeading {
+    font-size: 36px;
   }
 }
