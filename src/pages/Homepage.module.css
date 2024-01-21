@@ -114,12 +114,17 @@
 
 .heroImg {
   width: 90%;
+  transition: ease-in-out 0.2s;
 }
 
 .vline {
   width: 2px;
   border-right: solid 1px rgba(85, 96, 124, 0.3);
   height: 25px;
+}
+
+.heroImg:hover {
+  transform: scale(1.05);
 }
 
 /* portfolio */
@@ -217,6 +222,11 @@
 
 .cardButtonArrow {
   margin-left: 10px;
+}
+
+.cardButtonContent a {
+  text-decoration: none;
+  color: var(--primaryColor);
 }
 
 /* how it works */
@@ -330,6 +340,7 @@
 
 .jobVacancySection {
   background-color: var(--bgColor);
+  padding-bottom: 50px;
 }
 
 .vacancyPara {
@@ -369,8 +380,9 @@
   align-items: center;
   font-size: 18px;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 5%;
+  color: var(--textColor);
 }
 
 .tabBottomLineArrow {

@@ -47,6 +47,23 @@
   color: var(--textColor);
 }
 
+.footerCatLink {
+  text-decoration: none;
+  color: black;
+}
+
+.footerCatLink:hover {
+  color: var(--textColor);
+}
+
+.socialIconCol a:hover {
+  color: var(--primaryColor);
+}
+
+.link:hover {
+  color: var(--primaryColor);
+}
+
 @media (max-width: 1200px) {
   .footerPara {
     width: 70%;
